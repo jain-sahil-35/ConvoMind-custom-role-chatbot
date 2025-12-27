@@ -35,7 +35,7 @@ A beautiful Streamlit-based chatbot powered by **LangChain** and **HuggingFace**
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/custom-role-chatbot.git
+gh repo clone jain-sahil-35/ConvoMind-custom-role-chatbot
 cd custom-role-chatbot
 pip install -r requirements.txt
 ```
