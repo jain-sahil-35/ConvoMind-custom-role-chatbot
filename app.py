@@ -42,7 +42,8 @@ def load_model(temp):
     llm = HuggingFaceEndpoint(
         repo_id="openai/gpt-oss-safeguard-20b",
         task="text-generation",
-        temperature=temp
+        temperature=temp,
+        max_new_tokens=2048
     )
     return ChatHuggingFace(llm=llm)
 
